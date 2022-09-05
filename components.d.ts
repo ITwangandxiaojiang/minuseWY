@@ -9,5 +9,11 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     ElButton: typeof import('element-plus/es')['ElButton']
     ElRow: typeof import('element-plus/es')['ElRow']
+    ErweimaLogin: typeof import('./src/components/ErweimaLogin/ErweimaLogin.vue')['default']
+    Navbar: typeof import('./src/components/Navbar/Navbar.vue')['default']
+    PhoneLogin: typeof import('./src/components/PhoneLogin/PhoneLogin.vue')['default']
+    PopBox: typeof import('./src/components/PopBox/PopBox.vue')['default']
+    RouterLink: typeof import('vue-router')['RouterLink']
+    RouterView: typeof import('vue-router')['RouterView']
   }
 }
